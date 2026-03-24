@@ -1,6 +1,6 @@
 name: Test project 
 run-name: Node project set up
-on: workflow_dispatch
+on: push
 jobs:
   test-node:
     runs-on: ubuntu-latest
